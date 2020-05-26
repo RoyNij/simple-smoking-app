@@ -1,0 +1,50 @@
+[
+    {
+        "label" : "A beer in Blossom",
+        "goal" : 5000
+    },
+    {
+        "label" : "A pint in the BBC Bodega",
+        "goal" : 9000
+    },
+    {
+        "label" : "A cider at the cider house",
+        "goal" : 15000
+    },
+    {
+        "label" : "Order a good pizza",
+        "goal" :  30000
+    },
+    {
+        "label" : "Going out for a nice Italian meal",
+        "goal" : 150000
+    },
+    {
+        "label" : "Stand Mixer",
+        "goal" : 390000
+    },
+    {
+        "label" : "A nice computer keyboard",
+        "goal" : 596000
+    },
+    {
+        "label" : "Audio Interface for Recording",
+        "goal" : 796000
+    },
+    {
+        "label" : "A new computer monitor (4K)",
+        "goal" : 1584000
+    },
+    {
+        "label" : "A return flight to the Netherlands",
+        "goal" : 4000000
+    },
+    {
+        "label" : "Fender Twin Tube Amp",
+        "goal" : 5796000
+    },
+    {
+        "label" : "A Gibson SG",
+        "goal" : 13196000
+    }
+]

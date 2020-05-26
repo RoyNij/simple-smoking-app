@@ -1,0 +1,58 @@
+[
+    {
+        "goal" : 1,
+        "label" : "Heart rate starts dropping"
+    },
+    {
+        "goal" : 12,
+        "label" : "Carbon monoxide levels back to normal"
+    },
+    {
+        "goal" : 24,
+        "label" : "Blood pressure starts dropping"
+    },
+    {
+        "goal" : 48,
+        "label" : "Smell and taste nerves are healing"
+    },
+    {
+        "goal" : 72,
+        "label" : "Nicotine levels depleted"
+    },
+    {
+        "goal" : 504,
+        "label" : "Withdrawal symptoms starts subsiding"
+    },
+    {
+        "label" : "Lung function starts to improve",
+        "goal" : 720
+    },
+    {
+        "label" : "Circulation improves",
+        "goal" : 2160
+    },
+    {
+        "label" : "Lung cilia healed",
+        "goal" : 6480
+    },
+    {
+        "label" : "Coronary disease risk halfed",
+        "goal" : 8640
+    },
+    {
+        "label" : "Arteries and blood vessels start widening",
+        "goal" : 43200
+    },
+    {
+        "label" : "Probability of lung cancer is halfed",
+        "goal" : 86400
+    },
+    {
+        "label" : "Probability of developing coronary disease is back to same level as non-smoker",
+        "goal" : 129600
+    },
+    {
+        "label" : "Probability of dying from lung disease/cancer is back to same level as non-smoker",
+        "goal" : 172800
+    }
+]
