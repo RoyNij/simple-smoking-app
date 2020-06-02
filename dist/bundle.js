@@ -3539,16 +3539,16 @@ function instance($$self, $$props, $$invalidate) {
 			$: $$invalidate(1, timeInDays = Math.floor((time - timeInWeeks * 7 * 24) / 24));
 		}
 
-		if ($$self.$$.dirty & /*time, timeInDays*/ 34) {
-			$: $$invalidate(2, timeInHours = Math.floor(time - timeInDays * 24));
+		if ($$self.$$.dirty & /*time, timeInWeeks, timeInDays*/ 35) {
+			$: $$invalidate(2, timeInHours = Math.floor(time - timeInWeeks * 7 * 24 - timeInDays * 24));
 		}
 
-		if ($$self.$$.dirty & /*time, timeInDays, timeInHours*/ 38) {
-			$: $$invalidate(3, timeInMinutes = Math.floor((time - timeInDays * 24 - timeInHours) * 60));
+		if ($$self.$$.dirty & /*time, timeInWeeks, timeInDays, timeInHours*/ 39) {
+			$: $$invalidate(3, timeInMinutes = Math.floor((time - timeInWeeks * 7 * 24 - timeInDays * 24 - timeInHours) * 60));
 		}
 
-		if ($$self.$$.dirty & /*time, timeInDays, timeInHours, timeInMinutes*/ 46) {
-			$: $$invalidate(4, timeInSeconds = Math.floor((time - timeInDays * 24 - timeInHours - timeInMinutes / 60) * 3600));
+		if ($$self.$$.dirty & /*time, timeInWeeks, timeInDays, timeInHours, timeInMinutes*/ 47) {
+			$: $$invalidate(4, timeInSeconds = Math.floor((time - timeInWeeks * 7 * 24 - timeInDays * 24 - timeInHours - timeInMinutes / 60) * 3600));
 		}
 	};
 

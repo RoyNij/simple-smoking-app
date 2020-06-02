@@ -3,9 +3,9 @@
 
     $: timeInWeeks = Math.floor(time/24/7)
     $: timeInDays = Math.floor((time-timeInWeeks*7*24)/24);
-    $: timeInHours = Math.floor(time-timeInDays*24)
-    $: timeInMinutes = Math.floor((time - timeInDays*24 - timeInHours) * 60)
-    $: timeInSeconds = Math.floor((time - timeInDays*24 - timeInHours - timeInMinutes/60) * 3600)
+    $: timeInHours = Math.floor(time-timeInWeeks*7*24-timeInDays*24)
+    $: timeInMinutes = Math.floor((time - timeInWeeks*7*24 - timeInDays*24 - timeInHours) * 60)
+    $: timeInSeconds = Math.floor((time - timeInWeeks*7*24 - timeInDays*24 - timeInHours - timeInMinutes/60) * 3600)
 
 </script>
 
