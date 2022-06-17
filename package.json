@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "electron": "^13.1.2"
+    "electron": "^15.5.5"
   },
   "devDependencies": {
     "css-loader": "^5.2.6",
